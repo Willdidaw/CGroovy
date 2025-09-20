@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Song Detail | C'Groovy</title>
+  <link rel="stylesheet" href="../style/style.css" />
+  <script src="../script/jquery-3.6.0.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../view/index.html">C'Groovy</a>
+            </div>
+            <div class="gapper">
+                <nav>
+                    <ul>
+                        <li><a href="../view/index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="cur-page" href="../view/sc.html">Song collection</a>
+                            <ul class="dropdown-content">
+                                <li><a href="../view/pop.html">Pop</a></li>
+                                <li><a href="../view/rnb.html">R&B</a></li>
+                                <li><a href="../view/kpop.html">K-Pop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../view/au.html" >About Us</a></li>
+                    </ul>
+                </nav>
+                <a href="../view/login.html" class="lgn-btn">Join Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="song-detail">
+
+            <div class="container">
+                <div class="song-detail-header">
+                    <button id="back-btn" class="back-btn">Back</button>
+                    <img src="../assets/reckless.png" alt="Album Image" id="banner-album-art" class="banner-album-art-img"> 
+                    <div class="banner-text-details">
+                    <p class="banner-song-type" id="banner-song-type">Song Type Not Found</p> <h1 class="banner-song-title" id="banner-song-title">Song Title Not Found</h1> 
+                    <div class="banner-artist-info">
+                    <span class="banner-artist-name" id="banner-artist-name">Artists Not Found</span> <span class="banner-dot">•</span>
+                    <span class="banner-year" id="banner-song-year">####</span> <span class="banner-dot">•</span> <span class="banner-genre" id="banner-genre">Song Genre Not Found</span>
+                </div>
+            </div>
+        </div>
+        <div class="song-detail-body">
+            <div class="song-detail-mp">
+            <audio id="song-audio" controls src="../assets/reckless.mp3"></audio>
+            </div>
+        <div class="song-detail-lyrics">
+            <div class="desc-border">
+                <p id="song-desc" class="song-desc">Song Description Not Found</p>
+            </div>
+
+             <div class="border-lyrics">
+            <pre class="song-lyrics" id="song-lyrics">
+Lyrics Not Found
+        </pre>
+</div>
+            </div>
+        </div>
+    </div>  
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 C'Groovy. All rights reserved</p>
+            <div class="social">
+               <a href="https://www.instagram.com/">Instagram</a>
+               <a href="https://x.com/">Twitter</a>
+               <a href="https://www.facebook.com/">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+
+  <script src="../script/detail.js"></script>
+</body>
+</html>
